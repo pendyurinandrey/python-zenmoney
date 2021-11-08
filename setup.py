@@ -12,7 +12,7 @@ with open('README.md') as f:
     long_description = f.read()
 
 setup(
-    name='zenmoney-client',
+    name='zenmoney',
     version='.'.join(str(d) for d in VERSION),
     description='Library for zenmoney.ru API',
     long_description=long_description,
