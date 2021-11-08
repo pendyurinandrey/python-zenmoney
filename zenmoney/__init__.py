@@ -4,7 +4,7 @@ from datetime import date, datetime  # noqa:F401
 from uuid import UUID  # noqa:F401
 
 
-VERSION = (0, 9)
+VERSION = (1, 0, 0)
 API_URL = 'https://api.zenmoney.ru'
 API_OBJECTS = ['Account', 'Budget', 'Company', 'Instrument', 'Merchant',
                'Reminder', 'ReminderMarker', 'Tag', 'Transaction', 'User']
